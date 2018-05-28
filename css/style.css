@@ -1,0 +1,256 @@
+html body {
+	background: url(../img/bcg.jpg);
+	background-position: fixed;
+	margin: 0;
+}
+
+.container {
+	max-width: 1130px;
+	margin: 0 auto;
+}
+
+.levi, .desni {
+	position: absolute;
+}
+
+
+.levi {
+	left: 0;
+	top: 0;
+}
+
+.desni {
+	right: 0;
+	top:0;
+}
+
+.first {
+	display: flex;
+	justify-content:space-between;
+	margin-top: 20px;
+}
+
+
+.nul {
+	width:50%;
+	/*position: relative;*/
+	display:inline-block;
+	/*box-sizing: border-box;*/
+	border-right: 1px solid black;
+		background: url(../img/img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.vest {
+	background-color: grey;
+	width: 49%;
+	min-height: 330px;
+}
+
+.bla {
+	margin-top: 25%;
+	padding:20px;
+}
+
+.bla h1 {
+	text-transform: uppercase;
+	font-family: "Arial";
+	color:white;
+	word-spacing:1.5px;
+}
+
+.bla p {
+	font-family: "Arial";
+	font-size:16px;
+	color:black;
+	width:100%;
+	text-transform: uppercase;
+	line-height: 22px;
+}
+
+.bla button {
+	padding:10px;
+	color:black;
+	background-color: white;
+	border: 2px solid black;
+	text-transform: uppercase;
+}
+
+.second {
+	display:flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.match {
+	width:48%;
+	height:400px;
+	background-color: grey;
+}
+
+.sponsore {
+	min-height: 150px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: grey;
+	margin-top: 20px;
+
+
+
+}
+
+.sponsore h1 {
+	text-transform: uppercase;
+	color:white;
+	font-family: "Helvetica";
+	font-size: 25px;
+
+
+}
+
+.sponsore button {
+
+	padding:15px;
+	background-color: white;
+	color:black;
+	font-size: 20px;
+	font-family: "Arial";
+}
+
+
+.topnav {
+	height: 60px;
+	background-color: black;
+	line-height: 60px;
+	vertical-align: middle;
+	position: relative;
+	margin: 0;
+}
+
+.ultop {
+	margin: 0;
+	text-align: center;
+}
+
+.lione {
+	line-height: 60px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 80px;
+	margin: 0;
+	height: 60px;
+}
+
+.lione a {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Myriad-pro", sans-serif;
+	color: white;
+	display: block;
+}
+
+.lione a:hover {
+	background-color: gray;
+}
+
+img {
+	max-height: 50px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+footer {
+	height: 150px;
+	background-color: black;
+	display:flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	border-bottom:3px solid gray;
+	margin-bottom: 30px;
+}
+
+
+.forth {
+	margin-top: 20px;
+	
+}
+
+.logo {
+	/*background-color: grey;
+	padding:20px;
+	min-height: 200px;
+	border:2px solid black;
+	display:inline-block;*/
+
+}
+
+.logo img {
+	max-height: 100px;
+	text-align: center;
+	border:1px solid black;
+	padding:10px;
+	padding-bottom:30px;
+
+}
+
+.lastul li {
+	display: block;
+	list-style: none;
+	padding:0px;
+	margin: 0px;
+
+
+}
+
+.lastul li a {
+	display:inline-block;
+	padding:5px;
+	text-decoration: none;
+	color:white;
+	font-size: 16px;
+
+
+
+}
+
+.lastul {
+	margin: 0px;
+	padding:0px;
+	display:flex;
+	
+}
+
+.partone {
+	margin-left:20px;
+}
+
+.parttwo {
+	margin-left:20px;
+}
+
+.box {
+	height: 25px;
+	width: 25px;
+	background-color: gray;
+	margin:10px;
+}
+
+.twoboxes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right:0px;
+	top:0px;
+
+}
+
+@media only screen and (max-width: 300px) {
+    .container {
+        
+    }
+}
