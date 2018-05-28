@@ -27,7 +27,9 @@ html body {
 .first {
 	display: flex;
 	justify-content:space-between;
+	flex-wrap: wrap;
 	margin-top: 20px;
+	align-items: stretch;
 }
 
 
@@ -36,40 +38,46 @@ html body {
 	/*position: relative;*/
 	display:inline-block;
 	/*box-sizing: border-box;*/
-	border-right: 1px solid black;
-		background: url(../img/img1.jpg);
+	border: 1px solid black;
+		background: black;
 	background-position: center;
 	background-size: cover;
 }
 
+.one {
+	background: url(../img/img1.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid black;
+	display: inline-block;
+	width:50%;
+}
 .vest {
-	background-color: grey;
-	width: 49%;
-	min-height: 330px;
+	width: 50%;
+	min-height: 250px;
 }
 
-.bla {
+.bla, .bla2 {
 	margin-top: 25%;
 	padding:20px;
 }
 
-.bla h1 {
+.bla h1, .bla2 h1 {
 	text-transform: uppercase;
 	font-family: "Arial";
 	color:white;
-	word-spacing:1.5px;
 }
 
-.bla p {
+.bla p, .bla2 p {
 	font-family: "Arial";
 	font-size:16px;
-	color:black;
+	color:white;
 	width:100%;
 	text-transform: uppercase;
 	line-height: 22px;
 }
 
-.bla button {
+.bla button, .bla2 button {
 	padding:10px;
 	color:black;
 	background-color: white;
@@ -84,8 +92,8 @@ html body {
 }
 
 .match {
-	width:48%;
-	height:400px;
+	width:49%;
+	height:250px;
 	background-color: grey;
 }
 
@@ -249,8 +257,11 @@ footer {
 
 }
 
-@media only screen and (max-width: 300px) {
-    .container {
-        
+@media only screen and (max-width: 500px) {
+    .nul, .one, .jedan, .dva, .third, .forth {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+
     }
 }
